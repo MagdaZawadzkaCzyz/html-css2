@@ -10,3 +10,21 @@ div{
 pre{
     color: blue;
 }
+
+img{
+    margin: auto;
+    display: block;
+    border-color: black;
+    border-width: medium;
+    border-style: dashed;
+    border-radius: 25px;
+}
+
+.lista{
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    position: absolute;
+    top: 2px;
+    right: 350px;
+    visibility: visible ;
+}
