@@ -6,7 +6,7 @@
 </head>
 <body>
 <a href="index.html">Home</a>
-<form action="index.html" method="get">
+<form name="contactForm" action="index.html" method="get" onsubmit="return validateForm()">
     <label>Imię: <input type="text" name="firstName" placeholder="imię"></label><br/>
     <label>Nazwisko: <input type="text" name="lastName"></label><br/>
     <label>Płeć:
@@ -21,5 +21,6 @@
     <button type="submit">Wyślij</button><br/>
     <button type="reset">Wyczyść</button>
 </form>
+<script src="js/validator.js"></script>
 </body>
 </html>
